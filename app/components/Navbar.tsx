@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex items-center mx-auto justify-between px-4 max-w-2xl sm:px-6 lg:max-w-7xl">
         <Link href={"/"}>
           <h1 className="text-4xl font-bold">
-            Jojo{" "}
+            Jojo
             <span className="text-4xl font-bold text-[#DC143C]">Fashion</span>
           </h1>
         </Link>
@@ -42,6 +42,7 @@ const Navbar = () => {
             </div>
           ))}
         </nav>
+        
       </div>
     </header>
   );
